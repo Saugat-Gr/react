@@ -1,0 +1,18 @@
+What was done: Refactor of the code, seperation of concern implemented, 
+
+At the start of the lecture we learned that each component is a piece of code that is to be rendered on the web page, 
+Now every component to be stored on a main App.jsx file is a hassle and become large and unmanageable, 
+Hence now we implement of separation of concern and implement import and export keywords for reusing the component funcs, 
+
+How naming of the component file is: {Convention for the File}
+ 1. Not Mandatory but preffere: Create a components sub-folder inside of the src folder, 
+ 2. The name of the file must be equivalent to the component func name, 
+    Example if your component function name is: function Header(): File Name: Header.jsx
+ 3. Learn the practice of using export or export default, imp to know the diff in using 
+    them, 
+
+ Some Important Findings: 
+    You noticed that I had splitted my Header.css file with styles related to my header Components, but what you need to understand is that even if I have created a Header.css in my Header.jsx file via import "./Header.css" you need to be aware that the style definition written on this 
+    file for header element will be applied to all the header elements existing in the project. this
+    is the default behavior of the React project, the codes will be separated for the separation of 
+    concern only i.e for readability and maintainablity and debugging purposes nothing else.
