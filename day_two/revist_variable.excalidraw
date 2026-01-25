@@ -12,7 +12,7 @@
       "height": 2742.3054199219305,
       "angle": 0,
       "strokeColor": "#ffffff",
-      "backgroundColor": "#d0bfff",
+      "backgroundColor": "#1e1e1e",
       "fillStyle": "solid",
       "strokeWidth": 2,
       "strokeStyle": "solid",
@@ -25,11 +25,11 @@
         "type": 3
       },
       "seed": 2014392085,
-      "version": 809,
-      "versionNonce": 47671552,
+      "version": 810,
+      "versionNonce": 1201658826,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1767627619129,
+      "updated": 1769345391995,
       "link": null,
       "locked": false
     },
